@@ -11,6 +11,7 @@ Build and evaluate content-based, collaborative, and hybrid recommenders
 Produce top-N recommendations and similarity suggestions for any movie
 Deliver business insights for streaming platforms
 
-<img width="528" height="807" alt="image" src="https://github.com/user-attachments/assets/334c3ee7-7dff-4605-8100-b30c1936fb61" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8899c499-4a16-4c72-927c-0de4498f6737" />
+
 
 
