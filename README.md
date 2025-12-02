@@ -75,11 +75,13 @@ Uses collaborative filtering + content similarity to give more accurate recommen
 ##  Example Output 
 
 ### **Top-5 Movie Recommendations**
-1. **Shawshank Redemption, The (1994)**
-2. **Paths of Glory (1957)**
-3. **Guess Who's Coming to Dinner (1967)**
-4. **Neon Genesis Evangelion: The End of Evangelion (1997)**
-5. **Three Billboards Outside Ebbing, Missouri (2017)**
+
+1. **Last Action Hero (1993)**
+2. **G.I. Joe: The Movie (1987)**
+3. **Batman/Superman Movie, The (1998)**
+4. **Children of Men (2006)**
+5. **Home (2015)**
+
 
 
 <img width="856" height="424" alt="image" src="https://github.com/user-attachments/assets/a0298e56-dfc3-463e-bf7a-c5f07ca57a81" />
