@@ -1,6 +1,7 @@
 # A Movie Recommendation Model 
 ## A data-driven recommendation model built using the MovieLens dataset.
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1a3b9d5-af22-40eb-b43a-0d37b1adab50" />
+
 # Project Overview
 
 This project implements a Movie Recommendation  model System using the MovieLens dataset. It applies collaborative filtering, content-based methods, and a hybrid approach to provide personalized movie recommendations. 
