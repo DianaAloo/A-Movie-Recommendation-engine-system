@@ -77,6 +77,10 @@ Uses collaborative filtering + content similarity to give more accurate recommen
 5. **Three Billboards Outside Ebbing, Missouri (2017)**
 
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/421863f1-9786-4cbb-bdf6-daf8b374dd2a" />
+
+
+
 
 ##  Lessons Learned
 - How to work with real-world datasets (MovieLens).
