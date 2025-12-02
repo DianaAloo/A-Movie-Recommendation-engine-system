@@ -7,11 +7,17 @@ This project implements a Movie Recommendation  model System using the MovieLens
 The work follows the CRISP-DM framework, covering business understanding, data preparation, modeling, evaluation, and recommendations for deployment.
 
 Objectives
+
 1.Understand user–item interactions and viewing behavior
+
 2.Clean and explore the dataset, with visualizations
+
 3.Build and evaluate content-based, collaborative, and hybrid recommenders
+
 4.Produce top-N recommendations and similarity suggestions for any movie
+
 5.Deliver business insights for streaming platforms
+
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8899c499-4a16-4c72-927c-0de4498f6737" />
 
