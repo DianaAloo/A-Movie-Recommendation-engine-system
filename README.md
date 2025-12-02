@@ -2,22 +2,27 @@
 ## A data-driven recommendation model built using the MovieLens dataset.
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1a3b9d5-af22-40eb-b43a-0d37b1adab50" />
 
-# Project Overview
 
-This project implements a Movie Recommendation  model System using the MovieLens dataset. It applies collaborative filtering, content-based methods, and a hybrid approach to provide personalized movie recommendations. 
+## Project Overview
+
+This project demonstrates the creation of a **movie recommender system** using Python and the **Surprise library**, based on user ratings. 
+
+The main objective was to build a model that provides the **top 5 movie recommendations** for a user, leveraging collaborative filtering techniques taught in class. 
+
 The work follows the CRISP-DM framework, covering business understanding, data preparation, modeling, evaluation, and recommendations for deployment.
 
 ## Objectives
 
-1.Understand user–item interactions and viewing behavior
+For this project we achieved the following:  
 
-2.Clean and explore the dataset, with visualizations
-
-3.Build and evaluate content-based, collaborative, and hybrid recommenders
-
-4.Produce top-N recommendations and similarity suggestions for any movie
-
-5.Deliver business insights for streaming platforms
+- Processed the MovieLens dataset using **Surprise's Reader and Dataset classes**.  
+- Built a **collaborative filtering model** using **SVD** and compared it to KNN-based models.  
+- Performed **cross-validation** to evaluate model performance using RMSE and MAE metrics.  
+- Predicted ratings for specific users and movies.  
+- Added new user ratings to the system and generated **personalized top-n recommendations**.  
+- Created functions to:
+  - Collect user ratings for movies (`movie_rater`)  
+  - Generate top-n recommendations (`recommended_movies`)  
 
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8899c499-4a16-4c72-927c-0de4498f6737" />
@@ -27,4 +32,64 @@ The work follows the CRISP-DM framework, covering business understanding, data p
 
 
 
+The system generates **Top-N movie recommendations** tailored to any selected movie.
+
+
+###  Data Loading & Cleaning
+- Imported `movies.csv` and `ratings.csv` from MovieLens.
+- Parsed and cleaned genre information.
+- Merged datasets into a unified movie-ratings table.
+
+###  Content-Based Filtering
+- Processed movie genres into a **TF-IDF matrix**.
+- Computed **cosine similarity** between all movies.
+- Built a function to recommend movies based on metadata similarity.
+
+###  Collaborative Filtering (SVD)
+- Loaded rating data using `surprise`’s `Dataset` and `Reader`.
+- Trained an **SVD model** to predict movie ratings.
+- Generated predicted ratings for all users and movies.
+
+###  Hybrid Recommendation Model
+- Combined **content-based scores** and **predicted SVD ratings**.
+- Calculated a **Hybrid Score = (Similarity Score + Predicted Rating) / 2**.
+- Ranked movies to generate **Top-N recommendations**.
+
+---
+
+##  Key Functions
+
+### **1. `recommend_movies(movie_title, n=10)`**
+Returns the top-`n` movies most similar to the selected movie based on metadata.
+
+### **2. Hybrid Recommendation Generator**
+Uses collaborative filtering + content similarity to give more accurate recommendations.
+
+---
+
+##  Example Output 
+
+### **Top-5 Movie Recommendations**
+1. **Shawshank Redemption, The (1994)**
+2. **Paths of Glory (1957)**
+3. **Guess Who's Coming to Dinner (1967)**
+4. **Neon Genesis Evangelion: The End of Evangelion (1997)**
+5. **Three Billboards Outside Ebbing, Missouri (2017)**
+
+
+
+##  Lessons Learned
+- How to work with real-world datasets (MovieLens).
+- Implementing both **content-based and collaborative filtering**.
+- Building a **hybrid model** for improved accuracy.
+- Using `surprise` for SVD-based recommendation.
+- Applying cosine similarity for movie metadata comparison.
+
+
+
+## Future Improvements
+- Add user-profile based recommendations.
+- Deploy as an interactive web app using **Streamlit** or **Flask**.
+- Include movie posters and descriptions using an API (OMDb or TMDb).
+- Implement a **neural network recommender** (e.g., Autoencoders).
 
