@@ -7,7 +7,7 @@
 This project implements a Movie Recommendation  model System using the MovieLens dataset. It applies collaborative filtering, content-based methods, and a hybrid approach to provide personalized movie recommendations. 
 The work follows the CRISP-DM framework, covering business understanding, data preparation, modeling, evaluation, and recommendations for deployment.
 
-Objectives
+## Objectives
 
 1.Understand user–item interactions and viewing behavior
 
