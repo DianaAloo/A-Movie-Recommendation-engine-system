@@ -52,6 +52,9 @@ For a new user with ratings provided, the top 5 recommended movies were:
 <img width="769" height="391" alt="image" src="https://github.com/user-attachments/assets/09888c46-1aff-499a-b719-c49bfd1088ac" />
 
 
+<img width="747" height="387" alt="image" src="https://github.com/user-attachments/assets/1f46f8bf-22e5-427f-bded-81737b249004" />
+
+
 ## Future Improvements
 - Include **genre-specific recommendations**.  
 - Integrate hybrid recommendation methods (combining collaborative and content-based filtering).  
