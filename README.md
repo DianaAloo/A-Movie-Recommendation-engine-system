@@ -40,8 +40,6 @@ In this lab, we achieved the following:
    - Ranked all movies by predicted rating and returned the **top 5 movie titles**.
 
 
-  <img width="769" height="391" alt="image" src="https://github.com/user-attachments/assets/b18e5f67-c15e-4b64-ab34-6e9f041f3703" />
-
 
 ## Example Output
 For a new user with ratings provided, the top 5 recommended movies were:  
@@ -50,6 +48,9 @@ For a new user with ratings provided, the top 5 recommended movies were:
 3. Rear Window (1954)  
 4. Dr. Strangelove or: How I Learned to Stop Worrying (1964)  
 5. Amadeus (1984)  
+
+<img width="769" height="391" alt="image" src="https://github.com/user-attachments/assets/09888c46-1aff-499a-b719-c49bfd1088ac" />
+
 
 ## Future Improvements
 - Include **genre-specific recommendations**.  
