@@ -5,13 +5,43 @@
 
 ## Project Overview
 
-This project demonstrates the creation of a **movie recommender system** using Python and the **Surprise library**, based on user ratings. 
+This project demonstrates the creation of a **movie recommender system** using Python and the **Surprise library**. 
 
-The main objective was to build a model that provides the **top 5 movie recommendations** for a user, leveraging collaborative filtering techniques taught in class. 
+The main objective was to build a model that provides the **top 5 movie recommendations** for a user, leveraging user-based collaborative filtering and content based filtering techniques. 
 
 The work follows the CRISP-DM framework, covering business understanding, data preparation, modeling, evaluation, and recommendations for deployment.
 
+## Project Team (Group 4)
+Member 1: Diana Aloo-Scrum Master
+Member 2: Catherine Kaino
+Member 3: June Masolo
+Member 4: Joram Mugesa
+Member 5: Edinah Ogoti
+
+## Business Problem
+Users often leave the platform when they cannot quickly identify interesting movies.
+The business requires a Top-5 Personalized Movie Recommendation System that predicts what each user is likely to enjoy.
+
+The model should:
+
+Learn from historical ratings
+Predict ratings for unseen movies
+Recommend the Top-5 most relevant options
+### Dataset 
+MovieLens Latest Small Dataset (ml-latest-small)
+Source: https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
 ## Objectives
+- Predict user ratings for unseen movies.
+- Generate Top-5 movie recommendations for each user.
+- Improve engagement by surfacing relevant movies.
+- Provide explainable recommendations.
+- Address cold-start issues for new users or new movies.
+
+
+## Approach
+The project followed the Data Science CRISP-DM ,Cross-Industry Standard Process for Data Mining,providing a structured, iterative approach to ensure data projects are well-organized, reproducible, and aligned with business objectives.
+
 
 For this project we achieved the following:  
 =======
@@ -31,23 +61,30 @@ The lab uses the **MovieLens 1M dataset**, which contains user ratings for a wid
 
 ## Objectives
 In this lab, we achieved the following:  
->>>>>>> 7c7935ec5b114f456e4647562d16341b70b280e3
+=======
+### Business Understanding
+This project simulates a real-world scenario for a Data Science team at a streaming service.
+The business needs a system that can intelligently recommend movies to users based on their past behavior in order to:
+- Improve user experience
+- Increase watch time
+- Enhance customer loyalty
+- Drive platform growth
+Users face choice overload, and personalized recommendations reduce friction and increase engagement.
 
-- Processed the MovieLens dataset using **Surprise's Reader and Dataset classes**.  
+- Build a movie recommendation system using content-based 
 - Built a **collaborative filtering model** using **SVD** and compared it to KNN-based models.  
-- Performed **cross-validation** to evaluate model performance using RMSE and MAE metrics.  
+- Performed **cross-validation** to evaluate model performance using RMSE and MAE metrics. 
 - Predicted ratings for specific users and movies.  
 - Added new user ratings to the system and generated **personalized top-n recommendations**.  
 - Created functions to:
   - Collect user ratings for movies (`movie_rater`)  
   - Generate top-n recommendations (`recommended_movies`)  
+  
 
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8899c499-4a16-4c72-927c-0de4498f6737" />
 
 <img width="769" height="391" alt="image" src="https://github.com/user-attachments/assets/b57c2420-cad9-4d8a-8a05-544cc1eda5a7" />
-
-
 
 
 The system generates **Top-N movie recommendations** tailored to any selected movie.
@@ -104,19 +141,6 @@ Uses collaborative filtering + content similarity to give more accurate recommen
 
 <img width="856" height="424" alt="image" src="https://github.com/user-attachments/assets/a0298e56-dfc3-463e-bf7a-c5f07ca57a81" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 This notebook demonstrates the end-to-end process of building a recommendation system and can serve as a foundation for further enhancements in personalized movie recommendations.
 
 ##  Lessons Learned
@@ -127,7 +151,6 @@ This notebook demonstrates the end-to-end process of building a recommendation s
 - Building a **hybrid model** for improved accuracy.
 - Using `surprise` for SVD-based recommendation.
 - Applying cosine similarity for movie metadata comparison.
-
 
 
 ## Future Improvements
@@ -184,4 +207,4 @@ For a new user with ratings provided, the top 5 recommended movies were:
 
 ## Summary
 This lab allowed us to implement a **collaborative filtering recommender system** from end to end. We practiced model selection, performance evaluation, and personalized recommendation generation, gaining hands-on experience in building real-world recommendation systems.
->>>>>>> 7c7935ec5b114f456e4647562d16341b70b280e3
+
