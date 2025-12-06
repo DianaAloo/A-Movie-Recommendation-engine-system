@@ -70,7 +70,7 @@ We explored each variable individually to understand its distribution and key ch
 #### Ratings Distribution
 We want to see how users are rating movies. Are most ratings high, low, or evenly distributed? This helps us understand user behavior and potential bias in the data.
 
-![png](output_13_0.png)
+![Movie Rating Distribution](images/output_13_0.png)
     
 
 
