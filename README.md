@@ -29,8 +29,6 @@ To address this, the project requires the development of a Top-5 Personalized Mo
 5. Address cold-start issues for new users or new movies.
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8899c499-4a16-4c72-927c-0de4498f6737" />
-<img width="769" height="391" alt="image" src="https://github.com/user-attachments/assets/b57c2420-cad9-4d8a-8a05-544cc1eda5a7" />
-<img width="1536" height="1024" alt="3" src="https://github.com/user-attachments/assets/4171c539-5643-4ce8-ab76-9c006c39eb29" />
 
 ## 2. Data Understanding
 
